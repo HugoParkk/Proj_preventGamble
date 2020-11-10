@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-
-=======
 *{
     margin: 0;
 }
->>>>>>> 50cb4a41d74f25671e577875b001cec680270138
 a{
     color: black;
     text-decoration: none;
@@ -12,19 +8,12 @@ a{
 
 ul{
     list-style: none;
+    padding: 0;
 }
 
 li{
     display: inline;
 }
-<<<<<<< HEAD
-*{
-    margin: 0;
-
-}
-=======
-
->>>>>>> 50cb4a41d74f25671e577875b001cec680270138
 
 .pages{
     display: inline;
@@ -66,7 +55,7 @@ li{
     width: 90px;
     margin: 1vh;
     margin-left: 5vh;
-    background: linear-gradient(70deg, #a4ebf8, #aaa4f8);;
+    background: linear-gradient(70deg, #a4ebf8, #aaa4f8);
 }
 header{
     background-color: #a4ebf8;
@@ -75,25 +64,33 @@ header{
 .header_ln{
     border: 1px solid #a4ebf8;
 }
-
+.section{
+    text-align: center;
+}
+.section>ul{
+    margin: 1.5vh;
+}
+.section>ul>h4{
+    margin-top: 0.5vh;
+}
 #submit{
     font-size: 2.5vh;
     width: 30vh;
-    height: 5vh;
-    background-color: #a4baf8;
-    border: 1px solid #e0e0e0;
-<<<<<<< HEAD
-    border-radius: 7vh;
+    height: 4vh;
+    text-align: center;
+    background: linear-gradient(70deg, #a4ebf8, #aaa4f8);
+    border: 1px solid #a4ebf8;
+    border-radius: 2vh;
+    margin: 1.5vh;
 }
-
 .prev_section1{
     line-height: 40px;
 }
-
-=======
-    border-radius: 2vh;
+h2{
+    margin: 1vh;
+    padding: 3vh;
+    border-bottom: 1px solid #a4ebf8;
 }
-
 @keyframes color{
     0%{
         background: linear-gradient(45deg, #a4d9f8, #d6a4f8);
