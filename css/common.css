@@ -28,7 +28,7 @@ li{
 }
 .footer_box{
     padding: 1vh;
-    background-color: #dddddd;
+    background-color: #f1f1f1;
     color: #525252;
     text-align: center;
 }
@@ -40,8 +40,18 @@ li{
 }
 .logo_img{
     width: 150px;
-    margin: 10px;
+    margin: 1vh;
+    margin-left: 5vh;
 }
 .header_ln{
-    border: 1px solid #dddddd;
+    border: 1px solid #a4ebf8;
+}
+
+#submit{
+    font-size: 2.5vh;
+    width: 30vh;
+    height: 5vh;
+    background-color: #a4baf8;
+    border: 1px solid #e0e0e0;
+    border-radius: 7vh;
 }
