@@ -1,6 +1,4 @@
-.pages{
-    margin: 50px;
-}
+
 
 a{
     color: black;
@@ -17,9 +15,33 @@ li{
 *{
     margin: 0;
 }
+
+.pages{
+    display: inline;
+    width: 400px;
+    float: right;
+    margin-top: 48px;
+    font-size: 15px;
+}
+.pages>a{
+    margin-left: 15px;
+}
 .footer_box{
     padding: 1vh;
     background-color: #dddddd;
     color: #525252;
     text-align: center;
+}
+.section>h2{
+    text-align: center;
+}
+.logo{
+    display: inline;
+}
+.logo_img{
+    width: 150px;
+    margin: 10px;
+}
+.header_ln{
+    border: 1px solid #dddddd;
 }
